@@ -1,0 +1,32 @@
+{
+  "name": "prep-bob-client-profile",
+  "version": "0.1.0",
+  "description": "Prep Bob: MCP server for concise, source-linked, one-page client profiles",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "start": "node src/server.js",
+    "list-tools": "node scripts/list-tools.js",
+    "smoke": "node scripts/smoke.js",
+    "e2e": "node scripts/e2e-salesforce.js",
+    "preview": "node scripts/preview.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "@fontsource/noto-sans": "5.3.0",
+    "@modelcontextprotocol/server": "2.4.0",
+    "cheerio": "1.2.0",
+    "dotenv": "18.0.9",
+    "fast-xml-parser": "5.11.2",
+    "fontkit": "2.0.4",
+    "mammoth": "1.13.0",
+    "pdfkit": "0.20.2",
+    "unpdf": "2.0.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.4.0"
+  }
+}

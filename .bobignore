@@ -1,0 +1,13 @@
+.env
+cache/
+node_modules/
+profiles/*.pdf
+profiles/*.png
+preview/
+.tmp/
+*.log
+.DS_Store
+# Real files in docs/ are ignored; the demo files below are kept
+docs/*
+!docs/README.md
+!docs/SAMPLE_CONTEXT_FAKE.md

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "prep-bob-client-profile": {
+      "command": "/Users/connorlam/.local/share/fnm/node-versions/v26.13.0/installation/bin/node",
+      "args": [
+        "/Users/connorlam/Projects/client-profile/src/server.js"
+      ],
+      "cwd": "/Users/connorlam/Projects/client-profile",
+      "disabled": false
+    }
+  }
+}
