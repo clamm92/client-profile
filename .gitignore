@@ -1,8 +1,6 @@
 .env
 cache/
 node_modules/
-profiles/*.pdf
-profiles/*.png
 preview/
 .tmp/
 *.log
